@@ -20,7 +20,6 @@ except (OSError, IOError) as e:
     data = 3;
     pickle.dump(data, open("encodings.pickle", "wb"));
 
-# data = pickle.loads(open("encodings.pickle", "rb").read());
 detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml");
 
 display_flag=False;
