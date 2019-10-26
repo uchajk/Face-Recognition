@@ -3,8 +3,8 @@ from imutils import paths
 import argparse
 import os
 import cv2
-import face_recognition
 import pickle
+import face_recognition
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-d", "--dataset", required=True,
